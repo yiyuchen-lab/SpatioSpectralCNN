@@ -1,8 +1,8 @@
 # SpatioSpectralCNN
 
 1. if use conda, you could create a dedicated environment with the following:
-.. code-block:: bash
 
+.. code-block:: bash
   curl -O https://github.com/yiyuchen-lab/SpatioSpectralCNN/blob/master/environment.yml
   conda env create -f environment.yml
   conda activate spatiospectralCNN
