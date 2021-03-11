@@ -1,0 +1,15 @@
+name: spatiospectralCNN
+channels:
+   - conda-forge
+   - pytorch
+   - defaults
+dependencies:
+   - python>=3.7
+   - numpy
+   - scipy
+   - mne>=0.21
+   - pytorch
+   - pip:
+      - git+https://github.com/skorch-dev/skorch.git
+      - cupy
+      - scikit-learn
