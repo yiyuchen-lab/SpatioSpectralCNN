@@ -11,13 +11,14 @@ conda activate spatiospectralCNN
 
 
 2. EEG dataset is avaliable here:
+
 https://drive.google.com/file/d/1nBylKMIAP-uFNIo-QJyz6dcfBuHVyYZl/view?usp=sharing
 
 
 3. File:
 
 `Prepare_data.py`: 
-filter and featrue extractthe EEG data and store by `class_n_participant_n_fold_n.pkl` under `data` folder.  
+filter and featrue extract the EEG data and store by `class_n_participant_n_fold_n.pkl` under `data` folder.  
 
 `SpatioSpectral_3Ddata.py`: 
 reads `class_n_participant_n_fold_n.pkl` from `data` folder and train the network. 
